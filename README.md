@@ -1,54 +1,82 @@
-### challenge_converte
 
-Conversor de Moeda e Temperatura em Java.
-Este, é um projeto de conversor de moeda e temperatura implementado em Java usando a biblioteca JOptionPane para interação com o usuário.
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Java Currency and Temperature Converter</title>
+</head>
+<body>
 
-Funcionalidades:
-O conversor possui as seguintes funcionalidades:
+<h1>Java Currency and Temperature Converter</h1>
 
-Conversão de Moeda:
+<p>This is a currency and temperature converter project implemented in Java using the JOptionPane library for user interaction.</p>
 
-Real para Dólar
-Real para Euro
-Real para Libra Esterlina
-Real para Peso Argentino
-Real para Peso Chileno
-Dólar para Real
-Euro para Real
-Libra Esterlina para Real
-Peso Argentino para Real
-Peso Chileno para Real
-Conversão de Temperatura:
+<h2>Features</h2>
 
-Celsius para Fahrenheit
-Celsius para Kelvin
-Fahrenheit para Celsius
-Fahrenheit para Kelvin
-Kelvin para Celsius
-Kelvin para Fahrenheit
-Como utilizar
-Execute o programa: Após compilar o projeto, execute a classe Conversor para iniciar o programa.
+<p>The converter has the following features:</p>
 
-Escolha o tipo de conversão: O programa irá exibir uma caixa de diálogo onde você pode escolher entre a conversão de moeda ou temperatura.
+<ol>
+    <li>Currency Conversion:
+        <ul>
+            <li>Real to Dollar</li>
+            <li>Real to Euro</li>
+            <li>Real to British Pound</li>
+            <li>Real to Argentine Peso</li>
+            <li>Real to Chilean Peso</li>
+            <li>Dollar to Real</li>
+            <li>Euro to Real</li>
+            <li>British Pound to Real</li>
+            <li>Argentine Peso to Real</li>
+            <li>Chilean Peso to Real</li>
+        </ul>
+    </li>
+    <li>Temperature Conversion:
+        <ul>
+            <li>Celsius to Fahrenheit</li>
+            <li>Celsius to Kelvin</li>
+            <li>Fahrenheit to Celsius</li>
+            <li>Fahrenheit to Kelvin</li>
+            <li>Kelvin to Celsius</li>
+            <li>Kelvin to Fahrenheit</li>
+        </ul>
+    </li>
+</ol>
 
-Escolha a operação: Dependendo do tipo de conversão selecionado, o programa irá exibir outra caixa de diálogo com as opções disponíveis para a conversão.
+<h2>How to Use</h2>
 
-Insira o valor a ser convertido: Após escolher a operação, insira o valor a ser convertido (apenas números separados por ponto) na caixa de diálogo.
+<ol>
+    <li><strong>Execute the Program:</strong> After compiling the project, execute the `Conversor` class to start the program.</li>
+    <li><strong>Choose Conversion Type:</strong> The program will display a dialog box where you can choose between currency or temperature conversion.</li>
+    <li><strong>Choose the Operation:</strong> Depending on the selected conversion type, the program will show another dialog box with the available conversion options.</li>
+    <li><strong>Enter the Value to Convert:</strong> After choosing the operation, enter the value to be converted (only numbers separated by a dot) in the dialog box.</li>
+    <li><strong>View the Conversion Result:</strong> The program will display the conversion result on the screen.</li>
+</ol>
 
-Resultado da conversão: O programa irá exibir o resultado da conversão na tela.
+<h2>Dependencies</h2>
 
-Dependências
-O projeto utiliza a biblioteca JOptionPane para interação com o usuário. Não são necessárias outras dependências além das bibliotecas padrão do Java.
+<p>The project uses the JOptionPane library for user interaction. No other dependencies are required besides the standard Java libraries.</p>
 
-Configuração
-O projeto não requer configurações adicionais além de ter o ambiente Java corretamente configurado.
+<h2>Configuration</h2>
 
-Observações:
-Certifique-se de que o ambiente Java (JDK) esteja instalado e configurado corretamente em seu computador.
-O conversor de moeda utiliza cotações fixas em seu código. Para cotações atualizadas em tempo real, seria necessário integrar uma API de cotações de moedas, como a "Exchange Rates API".
-O código foi projetado para fins didáticos e pode ser expandido para incluir mais funcionalidades, tratamento de erros e melhorias na interface do usuário.
-Autor
-Nome: Teofilo Nicolau
+<p>The project does not require any additional configuration beyond having the Java environment (JDK) properly set up on your computer.</p>
 
-Contato: teofilonicolau157@gmail.com
+<h2>Notes</h2>
+
+<ul>
+    <li>Ensure that the Java environment (JDK) is correctly installed and configured on your computer.</li>
+    <li>The currency converter uses fixed exchange rates in its code. For real-time exchange rates, you would need to integrate a currency exchange rate API like "Exchange Rates API".</li>
+    <li>The code is designed for educational purposes and can be expanded to include more features, error handling, and user interface improvements.</li>
+</ul>
+
+<h2>Author</h2>
+
+<p>Name: [Teofilo Nicolau]<br>
+Contact: [teofilonicolau157@gmail.com]</p>
+
+---
+
+
+</body>
+</html>
+
 
